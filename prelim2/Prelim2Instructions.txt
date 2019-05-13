@@ -1,0 +1,31 @@
+Here are the instructions for Prelim2.
+In the HW directory there is this instruction file and two subdirectories:
+
+	1. DataFiles
+	2. EncryptedPrelims
+	
+In EncruptedPrelims there are 15 files, each containing 10,000 bytes. These are your
+encrypted prelims. Each file includes some padding at the end to make all the files
+come out the same size. The padding will be obvious once you decrypt the file.
+The files are encrypted using the one-time pad that you submitted at the beginning of
+this course. To find your copy of Prelim2, you must apply your one-time pad to each
+file. Unless people shared their one-time pads, only your version of the exam will
+decrypt into an intelligible document. However, you must try to decrypt all the files
+unless you happen to find yours before you decrypt all of them using your one-time
+pad. I scrambled the order of the files so that the numbers 00..14 do correspond to
+the alphabetical order of your names. You will get 15 points for decrypting your version
+of Prelim2 without assistance from me. If you need assistance to decrypt, you will get 
+fewer points. The exact amount depends on how much help you need.
+
+Once you decrypt your copy of Prelim2, you will find two kinds of questions:
+
+	1. Questions that are self-contained and do not need any further information.
+	2. Questions that refer to a file with a name something like FileYYY.bin or FileYYY.txt.
+	
+You should get to work on questions of Type 1, e.g., those questions that do not require any
+further information. I do not have the files ready for the questions of Type 2 yet. By the time 
+you work through all the questions of Type 1, I should have the files of Type 2 ready for you.
+I will send an email notification when the files of Type 2 are ready.
+
+If you have any questions or problems, please let me know by email: markov@mst.edu.
+

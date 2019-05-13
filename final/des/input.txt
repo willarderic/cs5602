@@ -1,0 +1,1 @@
+This is some input that is going to be used for my custom DES encryption algorithm.
