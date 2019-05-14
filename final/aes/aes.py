@@ -262,14 +262,10 @@ def keyExpansion(key):
     END KEY EXPANSION CODE
 '''
 
-testKey = "000102030405060708090a0b0c0d0e0f"#2b7e151628aed2a6abf7158809cf4f3c"
-testInput = "00112233445566778899aabbccddeeff"#3243f6a8885a308d313198a2e0370734"
+testKey = "000102030405060708090a0b0c0d0e0f"
+testInput = "00112233445566778899aabbccddeeff"
 ciphertext = encrypt(testInput, testKey)
 print(ciphertext)
 plaintext = decrypt(ciphertext, testKey)
 print(plaintext)
 print(plaintext == testInput)
-#print(hex(gmult(0x02, 0xdb) ^ gmult(0x03, 0x13) ^ 0x53 ^ 0x45))
-#keyExpansion(testKey)
-#xorWord('2b7e1516', '1b000000') = '307e1516'
-#print(S[int('5', 16)][int('1', 16)])
